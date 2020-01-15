@@ -1,0 +1,19 @@
+{
+  "name": "tcp-demo",
+  "version": "1.0.0",
+  "description": "Small Demo for TCP server, using Telnet to talk to it.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisBourgouin/lhl-12-w3d2.git"
+  },
+  "author": "Francis Bourgouin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancisBourgouin/lhl-12-w3d2/issues"
+  },
+  "homepage": "https://github.com/FrancisBourgouin/lhl-12-w3d2#readme"
+}
