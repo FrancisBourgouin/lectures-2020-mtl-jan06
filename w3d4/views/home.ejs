@@ -1,0 +1,15 @@
+<% include ./partials/_head %>
+
+<body>
+    <h1>Express routing !</h1>
+    <form action="/users" method="POST">
+        <button type="submit">Click me !</button>
+    </form>
+    <form action="/users?_method=PUT" method="POST">
+        <button type="submit">Click me UPDATE (PUT) !</button>
+    </form>
+    <form action="/users?_method=DELETE" method="POST">
+        <button type="submit">Click me DELETE !</button>
+    </form>
+</body>
+</html>
