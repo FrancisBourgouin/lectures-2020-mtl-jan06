@@ -1,0 +1,68 @@
+$primary-color : green;
+
+%border-yay{
+  border-bottom:1px solid $primary-color;
+  border-top:5px solid $primary-color;
+}
+body{
+  font-size:25px;
+}
+h1{
+  font-size:2em;
+  color: $primary-color;
+  @extend %border-yay;
+}
+h2{
+  font-size:1.5em;
+  color:$primary-color;
+}
+h3{
+  font-size:1.25em;
+  color:$primary-color;
+}
+p{
+  font-size:1em;
+  color:$primary-color;
+}
+@media screen and (max-width:500px){
+  body{
+    font-size:12vw;
+  }
+}
+
+div{
+  background-color:#C0FFEE;
+  width:400px;
+  border:15px solid black;
+  padding:20px;
+  box-sizing:content-box;
+}
+
+ul{
+    display:block;
+    li{
+        text-decoration: underline;
+        ul{
+            display:flex;
+            li{
+                color:red;
+              &:hover{
+                color:blue;
+              }
+              &.confirmed{
+                color:green;
+              }
+            }
+        }
+    }
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+body{
+  @include transform(translateY(50%))
+}

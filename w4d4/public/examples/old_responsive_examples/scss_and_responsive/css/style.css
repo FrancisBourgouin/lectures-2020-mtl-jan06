@@ -1,0 +1,66 @@
+h1 {
+  border-bottom: 1px solid green;
+  border-top: 5px solid green;
+}
+
+body {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 2em;
+  color: green;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: green;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: green;
+}
+
+p {
+  font-size: 1em;
+  color: green;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12vw;
+  }
+}
+div {
+  background-color: #C0FFEE;
+  width: 400px;
+  border: 15px solid black;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+ul {
+  display: block;
+}
+ul li {
+  text-decoration: underline;
+}
+ul li ul {
+  display: flex;
+}
+ul li ul li {
+  color: red;
+}
+ul li ul li:hover {
+  color: blue;
+}
+ul li ul li.confirmed {
+  color: green;
+}
+
+body {
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}

@@ -1,0 +1,32 @@
+img{
+  display:inline-block;
+}
+p{
+  width:400px;
+  display:inline-block;
+}
+div{
+  width:900px;
+}
+
+@media screen and (max-width:900px){
+  div{
+    width:100%;
+  }
+  p{
+    width:100%;
+  }
+}
+@media screen and (min-width:1001px){
+  div{ width:100%;
+  }
+  p{
+    width:100%;
+  } 
+}
+
+article{
+  background:#BADA55;
+  width:40vmin;
+    height:40vmin;
+}
